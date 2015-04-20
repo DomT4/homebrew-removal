@@ -1,9 +1,7 @@
-Homebrew-killmyhomebrew
+Homebrew-removal
 ========
 
-**Don’t use this yet. I’m not done making sure it works in an external tap just yet.**
-
-Homebrew-killmyhomebrew is a tiny, single-purpose Homebrew tap that adds an internal Homebrew command enabling you to destroy your Homebrew installation.
+Homebrew-removal is a tiny, single-purpose Homebrew tap that adds an internal Homebrew command enabling you to destroy your Homebrew installation.
 
 There are various scripts out there that do this without tapping Homebrew’s useful internal API and self-awareness, so I tweaked a pre-existing useful [Gist](https://gist.github.com/SteveBenner/11254428) to use more internal Homebrew capabilities and not lean on shell so much.
 
@@ -14,4 +12,4 @@ To run the script, you’d just do `brew selfdestruct`. It will ask you for conf
 
 How do I tap this repository?
 ===
-Just `brew tap domt4/killmyhomebrew`.
+Just `brew tap domt4/removal`.
