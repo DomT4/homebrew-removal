@@ -8,7 +8,7 @@ There are various scripts out there that do this without tapping Homebrew’s us
 Usage
 ===
 
-To run the script, you’d just do `brew selfdestruct`. It will ask you for confirmation that you’d like to remove Homebrew prior to doing anything. There’s also a `brew selfdestruct —dry-run` command if you’d like to see what it does.
+To run the script, you’d just do `brew selfdestruct`. It will ask you for confirmation that you’d like to remove Homebrew prior to doing anything. There’s also a `brew selfdestruct --dry-run` command if you’d like to see what it does.
 
 How do I tap this repository?
 ===
